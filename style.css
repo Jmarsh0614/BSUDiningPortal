@@ -1,0 +1,238 @@
+ 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: none;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: italic;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a:active {
+  background-color: #0a0b69;
+  color: white; */
+/* }End Top Navigation Bar */
+
+
+/*BODY*/
+body {
+	
+	border-style:groove; 
+	border-color:rgb(8, 8, 2);
+	border-width:5px;
+  background-color: rgb(0, 0, 0);
+  color:white;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+button:hover{
+
+  border-color:yellow;
+
+}
+
+input[type=submit]:hover{
+
+  border-color:yellow;
+
+}
+
+/*Calica Background*/
+.calica-bg{
+
+  background-image:url("ChilacaBackground.JPG");
+  background-repeat:round;
+
+}
+
+/*Wrapper Class For CSS GRID LAYOUT*/
+
+/* .wrapper{
+
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+} */
+
+ .wrapper-a{/*to set the breakfast grid*/
+
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr) ;
+  grid-gap:10px;
+} 
+
+.wrapper-b{
+
+  display:grid;
+  grid-template-rows: repeat(4);
+  grid-gap: 5px;
+  grid-row-end:auto;
+  grid-column-end:auto;
+}
+
+.wrapper-c{
+
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:10px;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.box {
+  background-color: rgb(22, 22, 22);  
+  color: #fff;
+  border-radius: 5px;
+  border-style:groove;
+  border-color:gainsboro;
+  padding: 20px;
+  /* font-size: 150%; */
+}
+
+.box-little {
+  background-color: rgb(22, 22, 22);  
+  color: #fff;
+  border-radius: 5px;
+  border-style:groove;
+  border-color:gainsboro;
+  padding: 20px;
+  height: 85px;
+  
+  
+  /* font-size: 150%; */
+}
+
+.panel{
+
+  /* grid-row-end: span 4; */
+  background-color: rgb(22, 22, 22);  
+  color: #fff;
+  border-style: groove;
+  border-color: gainsboro;
+  padding:28px;
+  height:300px;
+  /* width:150px; */
+}
+
+.content-box { background-clip: content-box; }
+ 
+/* to design page opening header*/
+#home{
+  font-family: 'Cormorant', serif;
+  font-weight:bold; 
+  color:rgb(213, 216, 59);
+  font-family: times;
+  font-size: 60px;
+  text-align: center;
+   
+  ;
+}
+
+/*Restaurant Banners*/
+
+#Banner{
+
+  border-radius: 25px;
+  height: 254px;
+  width: 720px;
+}
+
+#Contact{
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*Contact Us Form*/
+#ContactUs{
+
+  color:rgb(213, 216, 59);
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+/*Class to make the menu item pictures the same size and rounded the pictures*/
+.menu-image {
+  border-radius: 50%;
+  height: 100px;
+  width: 150px;
+  /* align-items: center; */
+   
+}
+
+.larger-menu-image {
+
+  border-color: grey;
+  border-style: solid;
+  border-right-width: 5px;
+  border-radius: 25%;
+  height: 300px;
+  width: 375px;
+}
+ 
+.hours-pics{
+
+  height:300px;
+  width: 350px;
+
+}
+
+
+
+/*For Home Page Ad Text*/
+.special-p{
+
+  font-style:italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*To Set The Size Of The Text Boxes*/
+
+ 
+
+input#tb{
+
+  width: 75px;
+  font-size: 13px;
+  color:black;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+
+#a-la-carte{
+  
+  display:inline;
+}
+
+
+#order-now{
+
+height: 35px;
+width: 100px;
+font-family: 'Cormorant';
+font-size: 15px;
+}
